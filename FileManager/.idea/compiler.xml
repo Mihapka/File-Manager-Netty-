@@ -6,8 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="FileManager" />
+        <module name="file-manager-server" />
+        <module name="file-manager-common" />
+        <module name="file-manager-client" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="file-manager-client" target="1.7" />
+      <module name="file-manager-common" target="1.7" />
+      <module name="file-manager-server" target="1.7" />
+      <module name="file.manager.server" target="18" />
+      <module name="org.Mihapka.file.manager.client" target="1.7" />
+      <module name="org.Mihapka.file.manager.common" target="18" />
+    </bytecodeTargetLevel>
   </component>
 </project>
