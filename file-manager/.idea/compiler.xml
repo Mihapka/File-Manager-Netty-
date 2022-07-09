@@ -6,7 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="tets" />
+        <module name="file-manager-server" />
+        <module name="file-manager-client" />
+        <module name="file-manager-common" />
       </profile>
     </annotationProcessing>
   </component>
